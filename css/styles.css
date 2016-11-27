@@ -22,12 +22,12 @@ body {
   margin: 0;
 }
 
-.tagline a {
+a {
   color: #f74160;
   text-decoration: none;
 }
 
-.tagline a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -35,4 +35,19 @@ body {
   color: #f74160;
   letter-spacing: 2px;
   font-weight: 300;
+}
+
+.newsletter {
+  background-color: #f74160;
+  padding: 10px 15px;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.newsletter a {
+  color: #fafafa;
+}
+
+.newsletter a:hover {
+  text-decoration: none;
 }
