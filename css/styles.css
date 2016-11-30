@@ -1,11 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  height: 100vh;
-  margin: 0;
+  margin: 20px;
 }
 
 .container {
-  height: 100%;
+  height: calc(100vh - 20px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,17 +36,41 @@ a:hover {
   font-weight: 300;
 }
 
-.newsletter {
+.btn {
   background-color: #f74160;
   padding: 10px 15px;
   margin-top: 0;
   font-weight: 300;
 }
 
-.newsletter a {
+.btn a {
   color: #fafafa;
 }
 
-.newsletter a:hover {
+.btn a:hover {
   text-decoration: none;
+}
+
+#bumpers {
+  display: none;
+}
+
+svg {
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 760px) {
+  svg {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .preview {
+    display: none;
+  }
+
+  #bumpers {
+    display: block;
+  }
 }
